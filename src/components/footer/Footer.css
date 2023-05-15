@@ -1,0 +1,42 @@
+.social_medias{
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+    height: 100px;
+    bottom: -10px;
+    position: fixed;
+}
+
+.insta{
+    width: 28px;
+    height: 27px;
+    background-image: url('assets/img/icon-instagram-default.svg');
+    top: 0;
+    bottom: 0;
+}
+
+.insta:hover{
+    background-image: url('assets/img/icon-instagram-hover.svg');
+}
+
+.twitter{
+    width: 19px;
+    height: 17px;
+    background-image: url('assets/img/twitter_defaulte.png');
+    margin-left: 10px;
+}
+
+.twitter:hover{
+    background-image: url('assets/img/twitter_hover.png');
+}
+
+.youtube{
+    width: 20px;
+    height: 17px;
+    background-image: url('assets/img/youtube_default.png');
+    margin-left: 10px;
+}
+
+.youtube:hover{
+    background-image: url('assets/img/youtube_hover.png')
+}

@@ -1,0 +1,33 @@
+.contacts_title{
+    padding-top: 90px;
+    margin-left: 130px;
+}
+
+
+.contacts_container{
+    color: #fff;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    cursor: pointer;
+}
+
+
+.adress_container, .work_time_container, .phone_container, .email_container{
+    padding-top: 30px;
+    margin-left: 150px;
+
+}
+
+.adress_title, .phone_title, .email_title, .work_title{
+    padding-top: 10px;
+    
+}
+
+.adress, .work_time, .phone, .email{
+    padding-top: 10px;
+
+}

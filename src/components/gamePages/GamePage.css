@@ -1,0 +1,91 @@
+.game_page_container{
+    width: 1440px;
+    height: 755px;
+    background-size: 800px;
+    background-position: center;
+    top: 0;
+}
+
+.quest_type{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 144%;
+    color: #F2890F;
+}
+
+
+.about_quest{
+    position: absolute;
+    left: 473px;
+    top: 233px;
+}
+
+.quest_title{
+    position: absolute;
+    white-space: nowrap;
+    margin-top: -117px;
+    font-weight: 900;
+    font-size: 92px;
+    line-height: 95%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+
+.quest_details{
+    margin-top: 43px;
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 144%;
+    display: flex;
+    align-items: center;
+    color: #FEC432;
+}
+
+
+.quest_duration, .quest_players_count{
+    padding-left: 7px;
+}
+
+.delimeter{
+    padding-left: 35px;
+}
+
+.details_img{
+    padding-left: 25px;
+}
+
+.quest_description{
+    width: 533px;
+    margin-top: 27px;
+    height: 180px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 150%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #E6E6E6;
+}
+
+.join_game_btn{
+    width: 185px;
+    height: 47px;
+    position: absolute;
+    left: 510px;
+    top: 636px;
+    border: 1px;
+    background: #FEC432;
+    box-shadow: 0px 2px 30px rgba(254, 196, 50, 0.5);
+    border-radius: 7px;
+    margin-top: -150px;
+    margin-left: -45px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #270B00;
+}

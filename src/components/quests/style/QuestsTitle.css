@@ -1,0 +1,26 @@
+.home_title{
+    padding-top: 90px;
+    margin-left: 90px;
+}
+
+
+.home_page_games{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 144%;
+    color: #F2890F;
+}
+
+
+.home_page_title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}

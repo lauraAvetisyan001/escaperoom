@@ -1,0 +1,82 @@
+.join_game_container{
+    margin-top: 100px;
+    width: 480px;
+    height: 570px;
+    position: absolute;
+    background: linear-gradient(0deg, #141414 0%, #1F1D1D 100%);
+    margin-left: 450px;
+    border-radius: 20px;
+    display: flex; 
+    justify-content: center;
+    font-family: 'Raleway';
+    font-style: normal;
+}
+
+.join_game_title{
+    position: absolute;
+    margin-top: 70px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 120%;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.join_game_input{
+    width: 400px;
+    height: 53px;
+    left: 0;
+    margin-top: 31px;
+    background: #535353;
+    opacity: 0.7;
+    border-radius: 6px;
+}
+
+::placeholder{
+    font-size: 14px;
+    line-height: 144%;
+    color: #fff;
+    opacity: 0.64;
+    padding-left: 19px;
+}
+
+.form{
+    margin-top: 119px;
+    margin-left: 40px;
+}
+
+  
+.rools_container {
+    display: flex;
+}
+  
+.join_game_rools{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 144%;
+    color: #E6E6E6;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+
+.join_game_checkbox{
+    margin-top: 11px;
+}
+
+.submit_btn{
+    position: absolute;
+    width: 229px;
+    height: 47px;
+    margin-top: 35px;
+    margin-left: 90px;
+    background: #FEC432;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #514321;
+    cursor: pointer;
+}

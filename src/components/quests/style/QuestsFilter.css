@@ -1,0 +1,49 @@
+body{
+    padding-top: 70px;
+}
+
+.home_filter{
+    display: flex;
+    cursor: pointer;
+    list-style-type: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #E6E6E6;
+    width: 700px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 19px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.filter_list {
+    display: flex;
+    list-style-type: none;
+    width: 700px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 19px;
+  }
+  
+  
+.filter_item {
+    padding: 0 25px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.filter_item:hover{
+    color: #FEC432;
+}
+
+.filter_item:active{
+    color: #FEC432;
+}
